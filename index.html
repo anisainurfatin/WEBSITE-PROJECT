@@ -1,0 +1,158 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, intial-scale=1.0">
+	<title>Ice Cream And Frozen Yogurt</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.jpeg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">PROMOTION</a></li>
+					<li><a href="">MENU</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>The Best Yogurt Ice Cream</h1>
+	<p>A popular dessert made with yogurt.<br> It always has a smooth and creamy texture, and yogurt can be sweet, savory, sour, and rich.<br> Additionally, like ice cream, it is often sold in cups or cones with a wide range of topping options, such as fruit, cookies and chocolate chips.</p>
+	<a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+	</section>
+
+<!------ Course ------>
+
+<section class="Course">
+	<h1>Chinese New year Promotion</h1>
+	<p>Buy RM50 and above get 1 free yogurt ice cream with 1 topping</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Flavour Of Ice Cream</h3>
+			<p>Strawberry, Chocolate, Vanilla, Mango, Cookies and Cream, Rainbow, Mint, Chocolate Mint, Tutti Fruity</p>
+		</div>
+		<div class="course-col">
+			<h3>Toppings</h3>
+			<p>Choco Crunch, Chocolate Chips, Nestum, Honey, Lotus Biscoff, Nutella, M&M, Nips, Mango, Grapes, Blueberry, Strawberry, Banana, Kiwi</p>
+		</div>
+
+	</div>
+
+
+
+
+</section>
+
+<!----- campus ----->
+
+<section class="campus">
+	<h1>Come And Get It!!!</h1>
+	<p>Buy RM50 and above get 1 free yogurt ice cream with 1 topping</p>
+
+	<div class="row">
+		<div class="campus-col">
+			<img src="images/nips.jpeg">
+			<div class="layer">
+				<h3>NIPS</h3>
+			</div>
+		</div>
+		<div class="campus-col">
+			<img src="images/st.jpg">
+			<div class="layer">
+				<h3>FRUITS</h3>
+			</div>
+		</div>
+		<div class="campus-col">
+			<img src="images/chocolate.jpeg">
+			<div class="layer">
+				<h3>CHOCOLATE</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<!----- Facilities ----->
+
+<section class="facilities">
+	<h1>Menu</h1>
+	<p>Small Cup with 1 topping(RM5) Medium Cup with 2 toppings(RM10) Large Cup with 3 toppings(RM15) add-on each topping RM2</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/small.jpeg">
+			<h3>Small Cup</h3>
+			<p>RM5</p>
+		</div>
+		<div class="facilities-col">
+			<img src="images/medium.jpeg">
+			<h3>Medium Cup</h3>
+			<p>RM10</p>
+		</div>
+		<div class="facilities-col">
+			<img src="images/large.jpeg">
+			<h3>Large Cup</h3>
+			<p>RM15</p>
+		</div>
+	</div>
+
+</section>
+
+
+<!----- contact ----->
+
+<section class="contact">
+	<h1>Contact Us</h1>
+
+	<div class="row">
+		<div class="contact-col">
+			<img src="images/instagram.jpeg">
+			<div>
+				<p>@icecreamyogurt.co</p>
+				<h3>INSTAGRAM</h3>
+			</div>
+		</div>
+		<div class="contact-col">
+			<img src="images/contact.jpeg">
+			<div>
+				<p>017-9320162 / 09-5101416</p>
+				<h3>CALL</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+	var navLinks = document.getElemenById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>
